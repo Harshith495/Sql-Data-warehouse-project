@@ -1,6 +1,8 @@
 
 
--- inserting data into silver.crm_prd_info from bronze.crm_prd_info
+-- Inserting data into silver.crm_prd_info from bronze.crm_prd_info
+
+TRUNCATE TABLE silver.crm_sales_details;
 insert into silver.crm_sales_details (
     sls_ord_num,
     sla_prd_key,
