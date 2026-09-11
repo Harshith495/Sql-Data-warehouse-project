@@ -1,5 +1,5 @@
 -- Inserting the data from bronze layer erp_customer to silver layer erp_customer
-
+TRUNCATE TABLE silver.erp_cust_az12;
 INSERT into silver.erp_cust_az12 (
     cid,
     bdate,
