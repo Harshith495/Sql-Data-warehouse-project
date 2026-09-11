@@ -1,6 +1,6 @@
 
 -- Inserting the data into silver location table form the bronze location table after the transfermation.
-
+TRUNCATE TABLE silver.erp_loc_a101;
 insert into silver.erp_loc_a101(
     cid,
     cntry
