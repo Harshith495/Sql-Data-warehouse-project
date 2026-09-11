@@ -1,7 +1,7 @@
 
 
 -- inserting the data from bronze.crm_prd_info to silver.crm_prd_info
-
+TRUNCATE TABLE silver.crm_prd_info;
 insert into silver.crm_prd_info (
     prd_id, 
     cat_id, 
