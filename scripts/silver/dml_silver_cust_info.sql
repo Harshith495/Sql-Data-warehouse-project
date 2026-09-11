@@ -1,6 +1,6 @@
 
 -- Inserting the cleaned and transformed data into the silver layer of the data warehouse
-
+TRUNCATE TABLE silver.crm_cust_info;
 Insert into silver.crm_cust_info(
     cst_id,
     cst_key,
